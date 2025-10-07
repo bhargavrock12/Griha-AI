@@ -2,6 +2,15 @@
 
 An AI-powered interior design assistant built with React, TypeScript, and Vite. Generate design ideas from text or images, explore inspirations, and preview designs in AR.
 
+## Authors & Co-Creators
+
+This project represents an equal collaboration and shared effort between the two primary developers.
+
+| Role | Name/Username | GitHub Profile |
+| :--- | :--- | :--- |
+| **Co-Creator** | bhargavrock12 | [@bhargavrock12](https://github.com/bhargavrock12) |
+| **Co-Creator** | snehasuresh2005 | [@snehasuresh2005](https://github.com/snehasuresh2005) |
+
 ### Highlights
 - **Text-to-design**: Describe your room, style, and dimensions to get concept outputs.
 - **Image-to-redesign**: Upload an existing room photo for AI-driven redesigns.
