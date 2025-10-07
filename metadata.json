@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Copy of Copy of GrihaAI - The AI Interior Designer",
+  "description": "An AI-powered web application to help users visualize interior design ideas. Generate new designs from text or redesign an existing room from a photo, complete with a budget-conscious, shoppable list of furniture and decor.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

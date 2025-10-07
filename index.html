@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GrihaAI - The AI Interior Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      :root {
+        --color-primary: #B19470; /* Muted, earthy primary */
+        --color-primary-light: #C7AD8D;
+        --color-accent: #E4C59E; /* Lighter accent */
+        --color-text: #5C524C; /* Soft, dark brown/charcoal */
+        --color-text-muted: #8E847D;
+        --color-background: #FBF9F6; /* Warm, soft off-white/beige */
+        --color-card: #FFFFFF;
+        --color-border: #EAE3DC;
+      }
+      body {
+        font-family: 'Poppins', sans-serif;
+        background-color: var(--color-background);
+        color: var(--color-text);
+      }
+      .font-serif {
+         font-family: 'Playfair Display', serif;
+      }
+      .font-sans {
+         font-family: 'Poppins', sans-serif;
+      }
+      @keyframes slow-spin {
+        from { transform: rotateY(0deg); }
+        to { transform: rotateY(360deg); }
+      }
+      .animate-slow-spin {
+        animation: slow-spin 45s linear infinite;
+      }
+      @keyframes item-spin {
+        from { transform: rotateY(0deg) rotateX(10deg); }
+        to { transform: rotateY(360deg) rotateX(10deg); }
+      }
+      .animate-item-spin {
+        animation: item-spin 20s linear infinite;
+      }
+    </style>
+     <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'primary': 'var(--color-primary)',
+              'primary-light': 'var(--color-primary-light)',
+              'accent': 'var(--color-accent)',
+              'text-main': 'var(--color-text)',
+              'text-muted': 'var(--color-text-muted)',
+              'background': 'var(--color-background)',
+              'card': 'var(--color-card)',
+              'border-main': 'var(--color-border)',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.22.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
