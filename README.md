@@ -4,8 +4,6 @@ An AI-powered interior design assistant built with React, TypeScript, and Vite. 
 
 ## Authors & Co-Creators
 
-This project represents an equal collaboration and shared effort between the two primary developers.
-
 | Role | Name/Username | GitHub Profile |
 | :--- | :--- | :--- |
 | **Co-Creator** | bhargavrock12 | [@bhargavrock12](https://github.com/bhargavrock12) |
